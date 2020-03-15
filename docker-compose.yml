@@ -1,0 +1,37 @@
+version: '2.3'
+
+x-lagoon-project:
+  # Lagoon project name (leave `&lagoon-project` when you edit this)
+  &lagoon-project drupal8
+  &cli-image $DOCKER_REPO/algmcli:$BUILDTAG
+
+x-environment:
+  &default-environment
+    LAGOON_PROJECT: *lagoon-project
+    # Route that should be used locally, if you are using pygmy, this route *must* end with .docker.amazee.io
+    LAGOON_ROUTE: http://drupal8.docker.amazee.io
+    # Uncomment if you like to have the system behave like in production
+    #LAGOON_ENVIRONMENT_TYPE: production
+    # Uncomment to enable xdebug and then restart via `docker-compose up -d`
+    XDEBUG_ENABLE: "true"
+
+x-user:
+  &default-user
+    # The default user under which the containers should run. Change this if you are on linux and run with another user than id `1000`
+    user: '1000'
+
+services:
+
+  cli: # cli container, will be used for executing composer and any local commands (drush, drupal, etc.)
+    build:
+      context: .
+      dockerfile: Dockerfile.cli
+    image: $DOCKER_REPO/algmcli:$BUILDTAG
+    user: root
+    environment:
+      << : *default-environment # loads the defined environment variables from the top
+
+
+networks:
+  amazeeio-network:
+    external: true
