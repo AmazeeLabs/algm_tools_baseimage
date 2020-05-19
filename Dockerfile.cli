@@ -1,3 +1,5 @@
 FROM amazeeio/php:7.2-cli-drupal
 COPY ./ALGM /ALGM
+WORKDIR /ALGM
 RUN /ALGM/build_tools.sh
+WORKDIR /app

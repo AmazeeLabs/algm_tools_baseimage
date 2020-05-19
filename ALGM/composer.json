@@ -1,0 +1,23 @@
+{
+    "name": "bomoko/algm_tools",
+    "description": "ALGM tools",
+    "type": "project",
+    "require": {
+        "bomoko/algm_drutiny_profile": "master-dev",
+	"drutiny/lagoon-formatter": "master-dev"
+    },
+    "license": "MIT",
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/bomoko/drutiny_lagoon_formatter.git"
+	}
+    ],
+    "authors": [
+        {
+            "name": "Blaize Kaye",
+            "email": "blaize.kaye@amazee.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
