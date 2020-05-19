@@ -465,12 +465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bomoko/drutiny_lagoon_formatter.git",
-                "reference": "8bd57ad120f104b03b78304b26012344ec1b7f85"
+                "reference": "a0a1c79b2b61d77b3ff2a8b9f63c5ff94e9e5952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bomoko/drutiny_lagoon_formatter/zipball/8bd57ad120f104b03b78304b26012344ec1b7f85",
-                "reference": "8bd57ad120f104b03b78304b26012344ec1b7f85",
+                "url": "https://api.github.com/repos/bomoko/drutiny_lagoon_formatter/zipball/a0a1c79b2b61d77b3ff2a8b9f63c5ff94e9e5952",
+                "reference": "a0a1c79b2b61d77b3ff2a8b9f63c5ff94e9e5952",
                 "shasum": ""
             },
             "require": {
@@ -478,6 +478,11 @@
                 "symfony/yaml": "^3.2"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Drutiny\\Amazee\\": "src/"
+                }
+            },
             "authors": [
                 {
                     "name": "Blaize Kaye",
@@ -489,7 +494,7 @@
                 "source": "https://github.com/bomoko/drutiny_lagoon_formatter/tree/master",
                 "issues": "https://github.com/bomoko/drutiny_lagoon_formatter/issues"
             },
-            "time": "2020-05-19T01:50:41+00:00"
+            "time": "2020-05-19T18:25:34+00:00"
         },
         {
             "name": "drutiny/plugin-drupal-8",
@@ -630,12 +635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "5262ecfd7683f760e08a934db6e76e748e3c2f00"
+                "reference": "c8162bee934111d42b1db4869c09fb58926074c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5262ecfd7683f760e08a934db6e76e748e3c2f00",
-                "reference": "5262ecfd7683f760e08a934db6e76e748e3c2f00",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c8162bee934111d42b1db4869c09fb58926074c7",
+                "reference": "c8162bee934111d42b1db4869c09fb58926074c7",
                 "shasum": ""
             },
             "require": {
@@ -689,7 +694,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-05-18T10:46:00+00:00"
+            "time": "2020-05-19T12:55:02+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2305,12 +2310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9d460c0196f431243f77093862e9885951c7b4e5"
+                "reference": "5b1e2699d0196c06c5fb529045d6badfa45f2e97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9d460c0196f431243f77093862e9885951c7b4e5",
-                "reference": "9d460c0196f431243f77093862e9885951c7b4e5",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/5b1e2699d0196c06c5fb529045d6badfa45f2e97",
+                "reference": "5b1e2699d0196c06c5fb529045d6badfa45f2e97",
                 "shasum": ""
             },
             "require": {
@@ -2387,7 +2392,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-16T09:03:35+00:00"
+            "time": "2020-05-19T17:12:53+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -2466,12 +2471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "a80afcb4c13d1e00a1da3203995f024817072103"
+                "reference": "c45e1a2b0ba3d3f2247af7c5fd89eee6c9967452"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/a80afcb4c13d1e00a1da3203995f024817072103",
-                "reference": "a80afcb4c13d1e00a1da3203995f024817072103",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/c45e1a2b0ba3d3f2247af7c5fd89eee6c9967452",
+                "reference": "c45e1a2b0ba3d3f2247af7c5fd89eee6c9967452",
                 "shasum": ""
             },
             "require": {
@@ -2558,7 +2563,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-04T15:12:51+00:00"
+            "time": "2020-05-19T16:38:46+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -2639,16 +2644,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b2f19ec0a23ab03437d7de4be2536d4690a14cbb"
+                "reference": "37f953956e416c5a0cc00efbc1b09df8ad96917e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b2f19ec0a23ab03437d7de4be2536d4690a14cbb",
-                "reference": "b2f19ec0a23ab03437d7de4be2536d4690a14cbb",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/37f953956e416c5a0cc00efbc1b09df8ad96917e",
+                "reference": "37f953956e416c5a0cc00efbc1b09df8ad96917e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0",
+                "php": "^7.1.3|^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
@@ -2717,7 +2722,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-19T05:06:19+00:00"
+            "time": "2020-05-19T14:00:38+00:00"
         }
     ],
     "packages-dev": [],
